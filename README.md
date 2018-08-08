@@ -104,8 +104,9 @@ def cut_image():
     box1 = (0, 1100, 800, 1700) #设置图像裁剪区域(left, upper, right, lower)
     image1 = image.crop(box1)
     image1.save('img/textarea.png')
+```
 然后将该区域二值化，提升识别率，由于要识别的文字部分颜色是纯白，所以阈值可以设的大一些：
-
+```python
 def extract_text():
     # 图像分割
     image = cv2.imread("img/textarea.png")
