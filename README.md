@@ -1,8 +1,13 @@
-# Python+ADB自动点击屏幕和文本识别
+# Python+ADB实现自动点赞和文字识别
+
+#### 原文地址：[猎奇 | Python+ADB实现自动点赞和文字识别](https://www.baidu.com/)
+
 ## 为什么要做这个呢？
 在各类直播平台，都有对主播点赞的功能，有一些直播平台（例如淘宝直播）的点赞按钮是可以无限点击的（为什么要双击666，明明可以无限击）。在淘宝直播中，主播看到自己收获很多赞之后，有概率放一些粉丝福利，某些福利是以抽奖为形式的，粉丝们在互动区疯狂发送关键字，主播随机截图，并给在截图中的粉丝送出福利。这个过程需要粉丝疯狂的点赞，以及实时盯着屏幕以防什么时候开始刷屏抽奖。如果全程亲自操作，依靠自己手动点击的话，不能解放双手，是非常拉底做事效率的。如果依靠自己盯着屏幕看，也是非常原始的做法。
 
 所以，如果能有一个自动点赞+自动窥屏的外挂将会让我们在薅羊毛的路上满载而归。
+
+<img src='https://mmbiz.qpic.cn/mmbiz_png/4guYGsRdZEQsoxTmu1eoFGwDC2M6e3hI1F8AL1cGyx1qNpBqRAkJbxPP0XXKNthI5owYRqCicVpBia8s3m1VyKTw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1'>
 
 鉴于之前已经有同学实现了自动挖掘抖音美女的案例，所以这个想法终于有了一丝付诸实践的曙光，潘老师和这位同学一样使用了Python+ADB的方式来实现。
 
@@ -66,13 +71,13 @@ for i in range(1,21): # 自动点赞20次
 ### 获取屏幕
 
 ADB截取屏幕的指令是：
-```python
+```c
 adb shell screencap -p /sdcard/autolottery.png
 ```
 其中-p后面接的是存放的路径和文件名。
 
 ADB把文件从手机中拷贝出来的指令是：
-```python
+```c
 adb pull /sdcard/autolottery.png ./img
 ```
 第一个路径是手机中文件的路径和文件名，后一个路径是存放在电脑中的路径，./img表示存在当前py文件目录下的img文件夹里。
