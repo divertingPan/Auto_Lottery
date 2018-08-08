@@ -71,7 +71,7 @@ for i in range(1,21): # 自动点赞20次
 
 <div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/3.PNG' /></div>
 
-<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/4.png' /></div>
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/4.png', width=480 /></div>
 
 嗯还是可以的。
 
@@ -124,11 +124,11 @@ def extract_text():
 ```
 原图：
 
-<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/5.png' /></div>
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/5.png', width=480 /></div>
 
 处理后：
 
-<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/6.png' /></div>
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/6.png', width=480 /></div>
 
 ### 文本识别
 
@@ -193,7 +193,7 @@ while 1:
 ```
 因为目前时间主播还没有开播，所以先自己拿备忘录打几个字试试。
 
-<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/8.png' /></div>
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/8.png', width=480 /></div>
 
 <div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/9.PNG' /></div>
 
@@ -204,7 +204,7 @@ while 1:
 
 实际测试效果（关键字：“有草”）：
 
-<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/11.png' /></div>
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/11.png', width=480 /></div>
 
 <div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/10.PNG' /></div>
 
