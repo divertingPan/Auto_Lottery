@@ -7,7 +7,7 @@
 
 所以，如果能有一个自动点赞+自动窥屏的外挂将会让我们在薅羊毛的路上满载而归。
 
-<img src='https://mmbiz.qpic.cn/mmbiz_png/4guYGsRdZEQsoxTmu1eoFGwDC2M6e3hI1F8AL1cGyx1qNpBqRAkJbxPP0XXKNthI5owYRqCicVpBia8s3m1VyKTw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1'>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_png/4guYGsRdZEQsoxTmu1eoFGwDC2M6e3hI1F8AL1cGyx1qNpBqRAkJbxPP0XXKNthI5owYRqCicVpBia8s3m1VyKTw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1', width="150" alt="这是一个表情包" /></div>
 
 鉴于之前已经有同学实现了自动挖掘抖音美女的案例，所以这个想法终于有了一丝付诸实践的曙光，潘老师和这位同学一样使用了Python+ADB的方式来实现。
 
