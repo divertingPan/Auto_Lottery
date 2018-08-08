@@ -28,11 +28,15 @@ adb shell getevent
 ```
 这时cmd会等待点击。
 
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/1.PNG' /></div>
+
 我点击了键盘上a字母的位置，cmd给出了以下信息。找到下面的信息，最后括号位置的十六进制数就是坐标，换算成十进制即可。
 ```c
 /dev/input/event4: 0003 0035 (X坐标)
 /dev/input/event4: 0003 0036 (Y坐标)
 ```
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/2.PNG' /></div>
 
 ### 自动点赞
 
@@ -64,6 +68,10 @@ for i in range(1,21): # 自动点赞20次
     click_hearts(i)
 ```
 实际测试一下，我们先使用这个方法点一点键盘上的a字母看看：
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/3.PNG' /></div>
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/4.PNG' /></div>
 
 嗯还是可以的。
 
@@ -116,7 +124,11 @@ def extract_text():
 ```
 原图：
 
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/5.PNG' /></div>
+
 处理后：
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/6.PNG' /></div>
 
 ### 文本识别
 
@@ -141,6 +153,8 @@ def baidu_ocr_text():
     return text
 ```
 看一下识别上面图片的结果：
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/7.PNG' /></div>
 
 在识别简体中文的同时，不耽误识别数字，实际上识别中文的同时英文字母也可以识别但是准确率低一些。
 
@@ -179,12 +193,20 @@ while 1:
 ```
 因为目前时间主播还没有开播，所以先自己拿备忘录打几个字试试。
 
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/8.PNG' /></div>
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/9.PNG' /></div>
+
 ## 实际测试
-可悲的事情发生了，测试的时候发现主播已经调整了抽奖方式，多数奖品用随机放出的“狂戳福利按钮”送出了，晚上只出了一次刷屏抽奖的方法。所以，这件事情告诉我们，产品研发的越迅速，越有生存空间。
+可悲的事情发生了，测试的时候发现主播已经调整了抽奖方式，多数奖品用随机放出的“狂戳福利按钮”送出了，晚上只出了一次刷屏抽奖的方法。所以，这件事情告诉我们，**产品研发就是在和时间赛跑。**
 
 所以，下次开发自动检测“狂戳福利按钮”并自动狂戳的外挂？
 
 实际测试效果（关键字：“有草”）：
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/11.PNG' /></div>
+
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/10.PNG' /></div>
 
 在这个外挂的辅助下，潘老师还是没有抽到奖，也许这就是，非命不改。
 
