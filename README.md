@@ -204,11 +204,13 @@ while 1:
 
 实际测试效果（关键字：“有草”）：
 
-<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/11.png', width=480 /></div>
+<div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/11.png', width=800 /></div>
 
 <div align=center><img src='https://github.com/divertingPan/Auto_Lottery/blob/master/screenshot/10.PNG' /></div>
 
 在这个外挂的辅助下，潘老师还是没有抽到奖，也许这就是，非命不改。
+
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_png/4guYGsRdZEQsoxTmu1eoFGwDC2M6e3hImiaaRxtcOgThtyhJC4pa30riaR6CQ3OjXl5NfQia78LpzaRhMheMCwo2g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1', width="150" alt="这是一个表情包" /></div>
 
 ## 总结
 
